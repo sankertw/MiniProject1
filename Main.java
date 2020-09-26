@@ -10,9 +10,9 @@ class Main {
     System.out.println("Welcome to the Guessing Game!"); // initial statement
     System.out.println("Please enter any positive whole number: ");
     userNum = initial.nextInt(); //gets users number
-    System.out.println(userNum); // test to make sure we got user number
+    // System.out.println(userNum); // test to make sure we got user number
     int randomNum = r.nextInt(userNum); // make random integer using userNum as upper bound
-    System.out.println("the random number is: " + randomNum); // change to a random number to guess
+    System.out.println("A random number to guess has been generated"); 
     playGame(userNum, randomNum);
   }
   static void playGame(int theInitial, int theNum) {
