@@ -1,3 +1,9 @@
+/*
+Mini Project 1
+Group #1: Tommy Sanker, Molly Campbell, Andrew Kaiser, Dom Dalessandro
+Date: 9/29/2020
+*/
+
 import java.util.Scanner; //import scanner class
 import java.util.Random; //import random class
 
@@ -20,7 +26,7 @@ class Main {
     int userGuess; //declare variable to store users guess
     int attempts; //declare variable to store the amount of attempts
 
-    attempts = 0; //make attempts 0, i guess
+    attempts = 0; //make attempts 0, i guess-
     //userGuess = guess.nextInt(); // get's users guess
 
     while(true){
@@ -28,9 +34,9 @@ class Main {
     userGuess = guess.nextInt(); // get's users guess
     attempts++;
  
-    if(userGuess == theNum) {
+    if(userGuess == theNum) { 
     System.out.println("You got it!");
-    System.out.println("it took you " + attempts + " attempts to guess the number");
+    System.out.println("it took you " + attempts + " attempts to guess the number"); 
     break;
       }
     if (userGuess < theNum){
